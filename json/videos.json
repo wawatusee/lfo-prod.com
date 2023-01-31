@@ -1,0 +1,29 @@
+{
+        "showcase":[
+            {
+                "title":"brussels wake up",
+                "thumb":"brussels wake up.png",
+                "time":0.00,
+                "client":"",
+                "année":2020,
+                "visible":0
+            },   
+            {
+                "title":"MARIAMA",
+                "file":"MARIAMA FINALFINAL HD ENG SUB 1.2.mp4",
+                "thumb":"mariama.png",
+                "time":20.48,
+                "client":"EPLO",
+                "année":2022,
+                "visible":0
+            },
+            {
+                "title":"MARIAMA-teaser",
+                "file":"MARIAMA TEASER FINAL FINAL 1.2.mp4",
+                "thumb":"mariama.png",
+                "time":0.53,
+                "client":"EPLO",
+                "année":2022
+            }
+        ]
+}

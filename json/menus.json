@@ -1,0 +1,36 @@
+{
+	"Main_menu":[
+		{
+			"page":"sevices",
+			"titre":"OUR SERVICES"
+		},
+		{
+			"page":"portfolio",
+			"titre":"PORTFOLIO"
+		},
+
+		{
+			"page":"contacts",
+			"titre":"CONTACTS"
+		}
+	],
+	"RS_menu":[
+		{
+			"page":"https://www.facebook.com/lesfilmsdelorangerie",
+			"titre":"facebook"
+		},
+		{
+			"page":"https://www.flickr.com/photos/110968188@N06/",
+			"titre":"flickr"
+		},
+		{
+			"page":"https://www.instagram.com/brigandpecheur/",
+			"titre":"instagram"
+		},
+		{
+			"page":"https://www.youtube.com/channel/UCp52cgxprApG0Dn9kWc88tQ",
+			"titre":"youtube"
+		}
+		
+	]
+}

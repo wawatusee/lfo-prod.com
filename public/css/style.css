@@ -1,0 +1,296 @@
+body{margin: 0;padding: 0;}
+  /*Variable disposition*/
+:root{
+--standartspace:0.9em;
+--content-padding:5px;
+--font:"Comfortaa-Regular.ttf";
+}
+    /*Variables Colors images*/
+:root{
+    --main-clear-color:#ffffff;
+    --website-bg-color:#ffffff;
+    --grey-color:#818181;
+    --deco-first-color:#f05a30;
+    --rs-bckgrnd-img:url("../img/menu_rs.png");
+}
+    /*Fonts*/
+@font-face{
+    font-family:"comfortaa";
+    src:url("public/css/fonts/Comfortaa-Regular.ttf");
+}
+body {
+    font-family: "Segoe UI",Geneva, Verdana, sans-serif;
+    }
+/*Titres*/
+H1,H2,H3{
+    text-align: center;
+}
+h1,h3{
+    color: var(--main-clear-color);
+    
+}
+/*HEADER*/
+.header{
+    display: flex;
+    background-color: var(--grey-color);
+    justify-content: space-around;
+    align-items: center;
+    height: 181px;
+    color: var(--main-clear-color);
+}
+.header{
+    background:url("../img/logo.png") no-repeat 105% 10%,url("../img/backgroundheader-mariama-fix.png")center;
+    /*url("../img/backgroundheader-mariama-fix.png")center;*/
+}
+
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+/*Essai background video
+*/
+  /*MENUS*/
+/**********************/
+  /*mainMenu*/
+/**********************/
+.responsiveMenu {
+    overflow: hidden;
+    color: #818181;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .responsiveMenu a {
+    display: block;
+    color:var(--grey-color)
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .responsiveMenu a:hover {
+    background-color: var(--grey-color);
+
+    color: var(--main-clear-color);
+    text-decoration: underline;
+  }
+  
+  .responsiveMenu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .responsiveMenu .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .responsiveMenu a:not(:first-child) {display: none;}
+    .responsiveMenu a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .responsiveMenu.responsive {position: relative;}
+    .responsiveMenu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .responsiveMenu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  /*#responsiveMenu{
+    position: fixed;
+    top: 0%;
+    right: 0;
+  }*/
+  /*Texte information*/
+  .information{
+    padding: var(--content-padding);
+    background-color: var(--main-clear-color);
+  }
+    /*End mainMENUS*/
+/**********************/
+/*SERVICES*/
+.services{
+  display: flex;
+ flex-direction: column;
+}
+.services p{
+  max-width: 80%;
+  align-self: center;
+  text-align: center;
+}
+/*Cards*/
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 80%;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  min-width: 150px;
+}
+
+.card img {
+  width: 80px;
+  align-self: center;
+  align-items: baseline;
+
+}
+.card p{
+  max-width: 350px;
+  text-align: center;
+}
+/*End SERVICES*/
+/*PORTFOLIO*/
+/*Showcase*/
+.showcase{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.carton-video{
+  width: 400px;
+  height: 300px;
+  font-size: 18px;
+}
+
+.carton-video>.arrow{
+  width: 88px;
+  position:relative;
+  top: -50%;
+  left: 38%;
+}
+.carton-video>figcaption{
+text-align: center;
+
+}
+
+.carton-video>.thumb{
+  width: 100%;
+}
+
+/*Essai avec background écrit dans html*/
+.carton-background{
+  background-position: 0px 0px;
+  background-size: contain;
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.carton-background>.arrow{
+  position: relative;
+  top: 25%;
+  left: 38%;
+}
+.legend-figure{
+  text-align: center;
+  }
+  /*End Essai avec background écrit dans html*/
+/*END PORTFOLIO*/
+/**********************/
+  /**********************/
+  /*Présentation*/
+  .presentation{
+    display: flex;
+    justify-content: center;
+    margin:var(--standartspace);
+    flex-wrap: wrap;
+  }
+  .presentation span{
+    display: flex;
+    flex-grow: 2;
+    min-width: 300px;
+    
+  }
+  .lien{
+    text-decoration: none;
+    /*background-color:var(--main-clear-color);*/
+    color: var(--vinrouge-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .lien:hover{
+    border-style:solid;
+    background-color:var(--vinrose-color);
+  }
+  .lien img{
+    height: 70px;
+  }
+  .lien,.presentation span{
+    border-radius: 2px;
+    padding: 5px;
+    margin-left:var(--standartspace);
+  }
+  .lien:hover{
+    background-color: var(--main-clear-color);
+    text-decoration: underline;
+    border: none;
+  }
+
+  /*end presentation*/
+  /**********************/
+    /*RSmenu*/
+/*Footer*/
+footer{
+    color:var(--main-clear-color);
+  }
+/*Block nav rs*/
+.nav-rs{
+    background-color:var(--main-clear-color);
+    display: flex;
+    justify-content:center;
+  }
+  .nav-rs a{
+    display: inline-block;
+  }
+  .rs{
+  height: 30px;
+  width: 30px;
+  background-image: url("../img/logo-rs_30px.png");
+  background-position-y:0;
+  margin: var(--standartspace);
+  }
+  .rs:hover{
+    background-position-y:-30px;
+    }
+  .facebook{
+  background-position-x:0;
+  }
+  .instagram{
+  background-position-x:-30px;
+  }
+  .youtube{
+    background-position-x:-90px;
+    }
+  .flickr{
+  background-position-x:-150px;
+  }
+  /*End RSmenu*/
+  /**********************/
