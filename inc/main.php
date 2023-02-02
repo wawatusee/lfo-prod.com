@@ -33,6 +33,14 @@
         </div>
     </section>
     <section id="portfolio">
+        <?php require_once("../model/portfolio_model.php");
+        $portfolioData=new PortfolioModel("../json/portfolio.json");
+        var_dump($portfolioData);
+        require_once("../view/portfolio_view.php");
+        $portfolioView=new PortfolioView();
+        //echo($portfolioView);
+        ?>
+        
         <h2>PORTFOLIO</h2>
         <div class="showcase">
             <figure class="carton-video">
@@ -63,6 +71,7 @@
                 <img src="img/content/HUMANS BUILD PEACE PASCAL EPLO 2020 .jpg" alt="Capture de la video">
             </div>
         </div>
+        <script src="js/portfolio.js"></script>
     </section>
     <section id="contacts">
         <h2>CONTACTS</h2>

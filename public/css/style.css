@@ -27,7 +27,6 @@ H1,H2,H3{
 }
 h1,h3{
     color: var(--main-clear-color);
-    
 }
 /*HEADER*/
 .header{
@@ -39,10 +38,24 @@ h1,h3{
     color: var(--main-clear-color);
 }
 .header{
-    background:url("../img/logo.png") no-repeat 105% 10%,url("../img/backgroundheader-mariama-fix.png")center;
-    /*url("../img/backgroundheader-mariama-fix.png")center;*/
+  background:url("../img/logo.png") no-repeat 98% 10%;
 }
-
+/*Responsive*/
+@media only screen and (max-width: 600px){
+  .header{
+    background:url("../img/logo.png") no-repeat 105% 10%,url("../img/backgroundheader-mariama-fix.png") center;
+  }
+  #background-video{display:none;}
+}
+@media only screen and (min-width: 600px){
+  .header{
+    height: 51vh;
+    background:url("../img/logo.png") no-repeat 98% 10%;
+  }
+  .responsiveMenu,main{
+    background-color:white;
+  }
+}
 
 #background-video {
   width: 100vw;
