@@ -1,7 +1,7 @@
 <?php class PortfolioView{
- private $portfolioView=" ";
+ private $portfolioView=" lapin";
     public function getView(array $catalogArray){
-        foreach($catalogArray as $showroom){
+        foreach($catalogArray as $showroom){/*
             //Comment décomposer chaque produit sans twig
             //Chaque catégorie de produits
             $this->catalogView.="<section class='showcase'>";
@@ -34,9 +34,9 @@
                 $this->catalogView.="</div></div>";
             };
 
-            $this->catalogView.="</section>";
+            $this->catalogView.="</section>";*/
         }
-        return $this->catalogView;
+        return $this->portfolioView;
     }
 
 }
