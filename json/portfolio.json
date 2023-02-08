@@ -44,7 +44,7 @@
                 "file":"MARIAMA FINALFINAL HD ENG SUB 1.2.mp4",
                 "poster":"mariamateaser.jpg",
                 "duration":20.48,
-                "visible":0
+                "visible":1
             },
             {
                 "title":"MARIAMA-teaser",
@@ -53,7 +53,7 @@
                 "file":"MARIAMA TEASER FINAL FINAL 1.2.mp4",
                 "poster":"mariamateaser.jpg",
                 "duration":0.53,
-                "visible":1
+                "visible":0
             },
             {
                 "title":"MAHMOUD",
@@ -87,9 +87,9 @@
                 "customer":"Le client",
                 "yearofproduction":"2022",
                 "file":"",
-                "poster":"img/content/thumbs-videos/poster.png",
+                "poster":"poster.png",
                 "duration":0.00,
-                "visible":1
+                "visible":0
             }
         ]
 }
