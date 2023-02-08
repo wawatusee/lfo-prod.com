@@ -1,32 +1,6 @@
 {
         "showcase":[
-            {
-                "title":"",
-                "customer":"",
-                "yearofproduction":"",
-                "file":"",
-                "poster":"",
-                "duration":0.00,
-                "visible":0
-            },
-            {
-                "title":"",
-                "customer":"",
-                "yearofproduction":"",
-                "file":"",
-                "poster":"",
-                "duration":0.00,
-                "visible":0
-            },
-            {
-                "title":"",
-                "customer":"",
-                "yearofproduction":"",
-                "file":"",
-                "poster":"",
-                "duration":0.00,
-                "visible":0
-            },
+
             {
                 "title":"You can make difference",
                 "customer":"EPLO",
@@ -68,7 +42,7 @@
                 "customer":"EPLO",
                 "yearofproduction":"2022",
                 "file":"MARIAMA FINALFINAL HD ENG SUB 1.2.mp4",
-                "poster":"mariama.png",
+                "poster":"mariamateaser.jpg",
                 "duration":20.48,
                 "visible":0
             },
@@ -77,7 +51,7 @@
                 "customer":"EPLO",
                 "yearofproduction":"2022",
                 "file":"MARIAMA TEASER FINAL FINAL 1.2.mp4",
-                "poster":"mariama.png",
+                "poster":"mariamateaser.jpg",
                 "duration":0.53,
                 "visible":1
             },
@@ -109,13 +83,13 @@
                 "visible":1
             },
             {
-                "title":"",
-                "customer":"",
-                "yearofproduction":"",
+                "title":"Modèle",
+                "customer":"Le client",
+                "yearofproduction":"2022",
                 "file":"",
-                "poster":"",
+                "poster":"img/content/thumbs-videos/poster.png",
                 "duration":0.00,
-                "visible":0
+                "visible":1
             }
         ]
 }

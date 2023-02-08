@@ -50,7 +50,7 @@ h1,h3{
 @media only screen and (min-width: 600px){
   .header{
     height: 51vh;
-    background:url("../img/logo.png") no-repeat 98% 10%;
+    background:url("../img/logo.png") no-repeat 98% 98%;
   }
   .responsiveMenu,main{
     background-color:white;

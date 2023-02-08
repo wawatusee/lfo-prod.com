@@ -35,71 +35,11 @@
     <section id="portfolio">
         <?php require_once("../model/portfolio_model.php");
         $portfolioData=new PortfolioModel("../json/portfolio.json");
-        /*var_dump($portfolioData->getPortfolio());*/
         $contentPortfolio=$portfolioData->getPortfolio();
-        var_dump($contentPortfolio);
         require_once("../view/portfolio_view.php");
         $portfolioView=new PortfolioView;
         echo $portfolioView->getView($contentPortfolio->showcase);
         ?>
-        
-        <h2>PORTFOLIO</h2>
-        <div class="showcase">
-            <figure class="carton-video">
-                <figcaption>Image intégrée à la div-EPLO-2020</figcaption>
-                <img class="thumb" src="img/content/thumbs-videos/humans-build-peace-pascal-eplo-2020.jpg" alt="Capture de la video">
-                <img class="arrow" src="img/arrow-play-video.svg" alt="Dessin de fleche">
-            </figure>
-            <figure class="carton-video">
-                <figcaption>HUMAN BUILD PEACE-EPLO-2020</figcaption>
-                <img class="thumb" src="img/content/thumbs-videos/humans-build-peace-pascal-eplo-2020.jpg" alt="Capture de la video">
-                <img class="arrow" src="img/arrow-play-video.svg" alt="Dessin de fleche">
-            </figure>
-            <figure>
-                <figcaption>MARIAMA TEASER 2022</figcaption>
-                <video width="400" height="300" poster="img/content/thumbs-videos/mariamateaser.jpg" >
-                    <source src="videos/mariamateaser.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </figure>
-            <figure>
-            <figcaption class="legend-figure">Carton Background dans html-EPLO-2020</figcaption>
-                <div class="carton-background" style="background-image: url(img/content/thumbs-videos/humans-build-peace-pascal-eplo-2020.jpg); ">
-                    <img class="arrow" src="img/arrow-play-video.svg" alt="Dessin de fleche">
-                </div>
-            </figure>
-            <div class="carton-video">
-                <img src="img/content/thumbs-videos/HUMANS BUILD PEACE PASCAL EPLO 2020 .jpg" alt="Capture de la video">
-            </div>
-            </figure>
-
-            <a href="#portfolio" class="video-link" style="background-image:url('img/content/thumbs-videos/human-build-peace-pascal-eplo-2020.jpg');">
-                <img class="thumb-video-arrow" src="img/arrow-play-video.svg" alt="Capture de la video">
-            </a>
-            <a href="#portfolio" class="video-link" >
-                <div class="thumb-video" style="background-image:url('img/content/thumbs-videos/human-build-peace-pascal-eplo-2020.jpg');background-repeat: no-repeat;background-size: cover;">
-                    <img class="thumb-video-arrow" src="img/arrow-play-video.svg" alt="Capture de la video">
-                </div>
-            </a>
-            <a href="#portfolio" class="video-link" >
-                <div class="thumb-video" style="background-image:url('img/content/thumbs-videos/human-build-peace-pascal-eplo-2020.jpg');">
-                    <img class="thumb-video-arrow" src="img/arrow-play-video.svg" alt="Capture de la video">
-                </div>
-                <span>titre</span>
-            </a>
-            <a href="#portfolio" class="video-link" >
-                <div class="thumb-video" style="background-image:url('img/content/thumbs-videos/human-build-peace-pascal-eplo-2020.jpg');">
-                    <img class="thumb-video-arrow" src="img/arrow-play-video.svg" alt="Capture de la video">
-                </div>
-                <span>titre</span>
-            </a>
-            <a href="#portfolio" class="video-link" >
-                <div class="thumb-video" style="background-image:url('img/content/thumbs-videos/human-build-peace-pascal-eplo-2020.jpg');">
-                    <img class="thumb-video-arrow" src="img/arrow-play-video.svg" alt="Capture de la video">
-                </div>
-                <span>titre</span>
-            </a>
-        </div>
         <script src="js/portfolio.js"></script>
     </section>
     <section id="contacts">
