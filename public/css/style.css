@@ -83,7 +83,7 @@ h1,h3{
   
   .responsiveMenu a {
     display: block;
-    color:var(--grey-color)
+    color:var(--grey-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -186,50 +186,18 @@ h1,h3{
   flex-wrap: wrap;
   justify-content: center;
 }
-.carton-video{
-  width: 400px;
-  height: 300px;
-  font-size: 18px;
-}
-
-.carton-video>.arrow{
-  width: 88px;
-  position:relative;
-  top: -50%;
-  left: 38%;
-}
-.carton-video>figcaption{
-text-align: center;
-
-}
-
-.carton-video>.thumb{
-  width: 100%;
-}
-
-/*Essai avec background écrit dans html*/
-.carton-background{
-  background-position: 0px 0px;
-  background-size: contain;
-  width: 400px;
-  height: 300px;
-  background-repeat: no-repeat;
-}
-.carton-background>.arrow{
-  position: relative;
-  top: 25%;
-  left: 38%;
-}
-.legend-figure{
-  text-align: center;
-  }
-  .video-link{
-
+/*Showcase-video-link*/
+.video-link{
     width: 400px;
     height: 300px;
-
+    border: grey solid 0.5px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #1b151521;
+    color: #141414;
+    margin: 2px;
   }
-  .thumb-video{
+.thumb-video{
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -237,17 +205,18 @@ text-align: center;
     background-position:center;
   }
 
-  .thumb-video-arrow{
+.thumb-video-arrow{
     width: 88px;
     position: relative;
-    top: 25%;
-    left: 38%;
+    top: 34%;
+    left: 0%;
   }
-  .video-link>span{
+.video-link>span{
  font-size: large;
-width: 100%;
+  width: 100%;
   }
   /*End Essai avec background écrit dans html*/
+  /*End Showcase-video-link*/
 /*END PORTFOLIO*/
 /**********************/
   /**********************/
