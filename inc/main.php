@@ -35,42 +35,11 @@
     <section id="portfolio">
         <?php require_once("../model/portfolio_model.php");
         $portfolioData=new PortfolioModel("../json/portfolio.json");
-        var_dump($portfolioData);
+        $contentPortfolio=$portfolioData->getPortfolio();
         require_once("../view/portfolio_view.php");
-        $portfolioView=new PortfolioView();
-        //echo($portfolioView);
+        $portfolioView=new PortfolioView;
+        echo $portfolioView->getView($contentPortfolio->showcase);
         ?>
-        
-        <h2>PORTFOLIO</h2>
-        <div class="showcase">
-            <figure class="carton-video">
-                <figcaption>Image intégrée à la div-EPLO-2020</figcaption>
-                <img class="thumb" src="img/content/thumbs-videos/humans-build-peace-pascal-eplo-2020.jpg" alt="Capture de la video">
-                <img class="arrow" src="img/arrow-play-video.svg" alt="Dessin de fleche">
-            </figure>
-            <figure class="carton-video">
-                <figcaption>HUMAN BUILD PEACE-EPLO-2020</figcaption>
-                <img class="thumb" src="img/content/thumbs-videos/humans-build-peace-pascal-eplo-2020.jpg" alt="Capture de la video">
-                <img class="arrow" src="img/arrow-play-video.svg" alt="Dessin de fleche">
-            </figure>
-            <figure>
-                <figcaption>MARIAMA TEASER 2022</figcaption>
-                <video width="400" height="300" poster="img/content/thumbs-videos/mariamateaser.jpg" >
-                    <source src="videos/mariamateaser.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </figure>
-            <figure>
-            <figcaption class="legend-figure">Carton Background dans html-EPLO-2020</figcaption>
-                <div class="carton-background" style="background-image: url(img/content/thumbs-videos/humans-build-peace-pascal-eplo-2020.jpg); ">
-                    <img class="arrow" src="img/arrow-play-video.svg" alt="Dessin de fleche">
-                </div>
-                
-            </figure>
-            <div class="carton-video">
-                <img src="img/content/HUMANS BUILD PEACE PASCAL EPLO 2020 .jpg" alt="Capture de la video">
-            </div>
-        </div>
         <script src="js/portfolio.js"></script>
     </section>
     <section id="contacts">

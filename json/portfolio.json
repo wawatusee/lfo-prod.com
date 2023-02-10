@@ -1,29 +1,95 @@
 {
         "showcase":[
+
             {
-                "title":"brussels wake up",
-                "thumb":"brussels wake up.png",
-                "time":0.00,
-                "client":"",
-                "année":2020,
-                "visible":0
+                "title":"You can make difference",
+                "customer":"EPLO",
+                "yearofproduction":"2020",
+                "file":"COMMERCIAL FINAL EDIT EPLO EDITOR CUT OK 29042020.mp4",
+                "poster":"COMMERCIAL FINAL EDIT EPLO EDITOR CUT OK 29042020.jpg",
+                "duration":2.00,
+                "visible":1
+            }, 
+            {
+                "title":"En Gap Lai",
+                "customer":"Jeremy Boisseau",
+                "yearofproduction":"",
+                "file":"En Gap Lai.mp4",
+                "poster":"En Gap Lai.jpg",
+                "duration":2.37,
+                "visible":1
+            },
+            {
+                "title":"Food Origins",
+                "customer":"Foods Origins",
+                "yearofproduction":"2019",
+                "file":"food origins be our ambassador 1 final.mp4",
+                "poster":"food origins be our ambassador 1 final.jpg",
+                "duration":0.35,
+                "visible":1
+            },
+            {
+                "title":"Food Origins",
+                "customer":"Foods Origins",
+                "yearofproduction":"2019",
+                "file":"food origins be our ambassador 2 final.mp4",
+                "poster":"food origins be our ambassador 2 final.jpg",
+                "duration":1.30,
+                "visible":1
             },   
             {
                 "title":"MARIAMA",
+                "customer":"EPLO",
+                "yearofproduction":"2022",
                 "file":"MARIAMA FINALFINAL HD ENG SUB 1.2.mp4",
-                "thumb":"mariama.png",
-                "time":20.48,
-                "client":"EPLO",
-                "année":2022,
-                "visible":0
+                "poster":"mariamateaser.jpg",
+                "duration":20.48,
+                "visible":1
             },
             {
                 "title":"MARIAMA-teaser",
+                "customer":"EPLO",
+                "yearofproduction":"2022",
                 "file":"MARIAMA TEASER FINAL FINAL 1.2.mp4",
-                "thumb":"mariama.png",
-                "time":0.53,
-                "client":"EPLO",
-                "année":2022
+                "poster":"mariamateaser.jpg",
+                "duration":0.53,
+                "visible":0
+            },
+            {
+                "title":"MAHMOUD",
+                "customer":"EPLO",
+                "yearofproduction":"2022",
+                "file":"MAHMOUD LUNCH4ALL FINAL.mp4",
+                "poster":"MAHMOUD LUNCH4ALL FINAL.jpg",
+                "duration":3.40,
+                "visible":1
+            },
+            {
+                "title":"Fondation Roi Baudoin",
+                "customer":"Fondation Roi Baudoin",
+                "yearofproduction":"",
+                "file":"FRB VIDEO 1 FINAL.1.mp4",
+                "poster":"FRB VIDEO 1 FINAL.1.jpg",
+                "duration":6.01,
+                "visible":1
+            },
+            {
+                "title":"Fondation Roi Baudoin",
+                "customer":"Fondation Roi Baudoin",
+                "yearofproduction":"",
+                "file":"FRB VIDEO 1 FINAL.1.mp4",
+                "poster":"FRB VIDEO 1 FINAL.1.jpg",
+                "duration":6.01,
+                "visible":1
+            },
+            {
+                "title":"Modèle",
+                "customer":"Le client",
+                "yearofproduction":"2022",
+                "file":"",
+                "poster":"poster.png",
+                "duration":0.00,
+                "visible":0
             }
         ]
 }

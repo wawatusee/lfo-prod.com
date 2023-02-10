@@ -1,4 +1,3 @@
-let aCartons=document.getElementsByClassName("carton-video");
-aCartons.forEach(element => {
-    console.log(" "+element.children.nodeName)
-});
+function play_this_video(filePath){
+    console.log(filePath);
+}
