@@ -200,7 +200,7 @@ h1,h3{
     border: grey solid 0.5px;
     text-decoration: none;
     text-align: center;
-    background-color: #1b151521;
+    background-color: rgba(var(--grey-color),0.5);
     color: #141414;
     margin: 2px;
   }
