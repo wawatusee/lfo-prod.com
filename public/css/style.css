@@ -179,6 +179,13 @@ h1,h3{
 }
 /*End SERVICES*/
 /*PORTFOLIO*/
+/*Player video*/
+#playervideo{
+  max-width: 98vw;
+  display: block;
+  margin: auto;
+}
+/*end Player video*/
 /*Showcase*/
 .showcase{
   display: flex;
