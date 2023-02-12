@@ -228,47 +228,26 @@ h1,h3{
 /*END PORTFOLIO*/
 /**********************/
   /**********************/
-  /*Présentation*/
+  /*Contacts*/
+  
+  .contacts{
+    min-height: 40vH;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: black solid 0.5px;
+    border-radius: 5px;
+    align-items: center;
+  }
   .presentation{
     display: flex;
-    justify-content: center;
-    margin:var(--standartspace);
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
   }
-  .presentation span{
-    display: flex;
-    flex-grow: 2;
-    min-width: 300px;
-    
+  .presentation>span{
+    margin-left: 5px;
   }
-  .lien{
-    text-decoration: none;
-    /*background-color:var(--main-clear-color);*/
-    color: var(--vinrouge-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .lien:hover{
-    border-style:solid;
-    background-color:var(--vinrose-color);
-  }
-  .lien img{
-    height: 70px;
-  }
-  .lien,.presentation span{
-    border-radius: 2px;
-    padding: 5px;
-    margin-left:var(--standartspace);
-  }
-  .lien:hover{
-    background-color: var(--main-clear-color);
-    text-decoration: underline;
-    border: none;
-  }
-
-  /*end presentation*/
+  /*end Contacts*/
   /**********************/
     /*RSmenu*/
 /*Footer*/

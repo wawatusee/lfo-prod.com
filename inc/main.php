@@ -44,16 +44,17 @@
         $portfolioView=new PortfolioView;
         echo $portfolioView->getView($contentPortfolio->showcase);
         ?>
-        <script src="js/portfolio.js"></script>
     </section>
     <section id="contacts">
         <h2>CONTACTS</h2>
-        <div class="presentation">
+        <div class="contacts">
             <div class="presentation">
                 <a href="+32055661905"><img src="/public/img/picto-phone.png" alt="picto-téléphone"></a><span>+32 04 56 61 98 05</span>
              </div>
             <div class="presentation">
                 <a href="mailto:contact@lfoprod.com"><img src="/public/img/picto-mail" alt="picto-mail"></a><span>contact@lfoprod.com</span>
             </div>
+        </div>
     </section>
 </main>
+<script src="js/portfolio.js"></script>
