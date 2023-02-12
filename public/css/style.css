@@ -203,6 +203,7 @@ h1,h3{
     background-color: rgba(var(--grey-color),0.5);
     color: #141414;
     margin: 2px;
+    text-transform: uppercase;
   }
 .thumb-video{
     width: 100%;
