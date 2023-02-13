@@ -232,6 +232,8 @@ h1,h3{
   
   .contacts{
     min-height: 40vH;
+    max-width: 650px;
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
