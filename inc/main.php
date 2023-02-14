@@ -52,7 +52,7 @@
                 <a href="+32055661905"><img src="/public/img/picto-phone.png" alt="picto-téléphone"></a><span>+32 04 56 61 98 05</span>
              </div>
             <div class="presentation">
-                <a href="mailto:contact@lfoprod.com"><img src="/public/img/picto-mail" alt="picto-mail"></a><span>contact@lfoprod.com</span>
+                <a href="mailto:contact@lfoprod.com"><img src="/public/img/picto-mail.png" alt="picto-mail"></a><span>contact@lfoprod.com</span>
             </div>
         </div>
     </section>
