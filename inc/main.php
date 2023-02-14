@@ -33,6 +33,10 @@
         </div>
     </section>
     <section id="portfolio">
+    <h2>PORTFOLIO</h2>
+        <video id="playervideo" controls width="640" height="480" poster="img/content/thumbs-videos/mariamateaser.jpg" autoplay muted>
+            <source src="videos/MARIAMA TEASER FINAL FINAL 1.2.mp4" type="video/mp4">
+        </video>
         <?php require_once("../model/portfolio_model.php");
         $portfolioData=new PortfolioModel("../json/portfolio.json");
         $contentPortfolio=$portfolioData->getPortfolio();
@@ -40,16 +44,17 @@
         $portfolioView=new PortfolioView;
         echo $portfolioView->getView($contentPortfolio->showcase);
         ?>
-        <script src="js/portfolio.js"></script>
     </section>
     <section id="contacts">
         <h2>CONTACTS</h2>
-        <div class="presentation">
+        <div class="contacts">
             <div class="presentation">
                 <a href="+32055661905"><img src="/public/img/picto-phone.png" alt="picto-téléphone"></a><span>+32 04 56 61 98 05</span>
              </div>
             <div class="presentation">
-                <a href="mailto:contact@lfoprod.com"><img src="/public/img/picto-mail" alt="picto-mail"></a><span>contact@lfoprod.com</span>
+                <a href="mailto:contact@lfoprod.com"><img src="/public/img/picto-mail.png" alt="picto-mail"></a><span>contact@lfoprod.com</span>
             </div>
+        </div>
     </section>
 </main>
+<script src="js/portfolio.js"></script>
