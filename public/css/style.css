@@ -49,7 +49,7 @@ h1,h3{
 }
 @media only screen and (min-width: 600px){
   .header{
-    height: 51vh;
+    height: 30vh;
     background:url("../img/logo.png") no-repeat 98% 98%;
   }
   .responsiveMenu,main{
@@ -230,7 +230,7 @@ h1,h3{
   /**********************/
   /*Contacts*/
   #contacts{
-    margin-top: 50px;
+    margin: 50px 50px 0 50px;
   }
   .contacts{
     min-height: 40vH;
