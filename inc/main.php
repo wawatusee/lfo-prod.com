@@ -7,7 +7,7 @@
                 <header>
                     <h3>A short heading</h3>
                 </header>    
-                <img src="img/ampoule.png" alt="dessin ampoule">
+                <img src="img/ampoule-nb.svg" alt="dessin ampoule">
                 <div class="content">
                     <p> We are a film production company. We produce quality medias for profit and no profit organizations.</p>
                 </div>   
