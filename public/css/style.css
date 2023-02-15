@@ -42,11 +42,13 @@ h1,h3{
 }
 .header{
   background:url("../img/logo.png") no-repeat 98% 10%;
+  
 }
 /*Responsive*/
 @media only screen and (max-width: 600px){
   .header{
     background:url("../img/logo.png") no-repeat 105% 10%,url("../img/backgroundheader-mariama-fix.png") center;
+    
   }
   #background-video{display:none;}
 }
@@ -54,6 +56,7 @@ h1,h3{
   .header{
     height: 30vh;
     background:url("../img/logo.png") no-repeat 98% 98%;
+    background-size: 70px;
   }
   .responsiveMenu,main{
     background-color:white;
