@@ -13,8 +13,8 @@
                 "title":"You can make difference",
                 "customer":"EPLO",
                 "yearofproduction":"2020",
-                "file":"COMMERCIAL FINAL EDIT EPLO EDITOR CUT OK 29042020.mp4",
-                "poster":"COMMERCIAL FINAL EDIT EPLO EDITOR CUT OK 29042020.jpg",
+                "file":"COMMERCIAL-FINAL-EDIT-EPLO-EDITOR-CUT-OK-29042020.mp4",
+                "poster":"COMMERCIAL-FINAL-EDIT-EPLO-EDITOR-CUT-OK-29042020.jpg",
                 "duration":2.00,
                 "visible":1
             },
@@ -22,8 +22,8 @@
                 "title":"Food Origins",
                 "customer":"Foods Origins",
                 "yearofproduction":"2019",
-                "file":"food origins be our ambassador 1 final.mp4",
-                "poster":"food origins be our ambassador 1 final.jpg",
+                "file":"food-origins-be-our-ambassador-1-final.mp4",
+                "poster":"food-origins-be-our-ambassador-1-final.jpg",
                 "duration":0.35,
                 "visible":1
             },
@@ -31,9 +31,27 @@
                 "title":"Food Origins",
                 "customer":"Foods Origins",
                 "yearofproduction":"2019",
-                "file":"food origins be our ambassador 2 final.mp4",
-                "poster":"food origins be our ambassador 2 final.jpg",
+                "file":"food-origins-be-our-ambassador-2-final.mp4",
+                "poster":"food-origins-be-our-ambassador-2-final.jpg",
                 "duration":1.30,
+                "visible":1
+            },
+            {
+                "title":"Human build peace, Eplo",
+                "customer":"Eplo",
+                "yearofproduction":"2020",
+                "file":"human-build-peace-pascal-eplo-2020.mp4",
+                "poster":"human-build-peace-pascal-eplo-2020.jpg",
+                "duration":2.20,
+                "visible":1
+            },
+            {
+                "title":"Human build peace, Eplo",
+                "customer":"Eplo",
+                "yearofproduction":"2020",
+                "file":"HUMANS-BUILD-PEACE-PAUL-EPLO-2020.mp4",
+                "poster":"HUMANS-BUILD-PEACE-PAUL-EPLO-2020.jpg",
+                "duration":2.20,
                 "visible":1
             },   
             {
@@ -52,14 +70,14 @@
                 "file":"MARIAMA TEASER FINAL FINAL 1.2.mp4",
                 "poster":"mariamateaser.jpg",
                 "duration":0.53,
-                "visible":0
+                "visible":1
             },
             {
                 "title":"MAHMOUD",
                 "customer":"EPLO",
                 "yearofproduction":"2022",
-                "file":"MAHMOUD LUNCH4ALL FINAL.mp4",
-                "poster":"MAHMOUD LUNCH4ALL FINAL.jpg",
+                "file":"MAHMOUD-LUNCH4ALL-FINAL.mp4",
+                "poster":"MAHMOUD-LUNCH4ALL-FINAL.jpg",
                 "duration":3.40,
                 "visible":1
             },
@@ -80,6 +98,15 @@
                 "poster":"FRB-VIDEO-2-FINAL.1.jpg",
                 "duration":6.01,
                 "visible":1
+            },
+            {
+                "title":"One day in Catba",
+                "customer":"Jeremy Boisseau",
+                "yearofproduction":"",
+                "file":"one-day-in-catba.mp4",
+                "poster":"one-day-in-catba.jpg",
+                "duration":2.37,
+                "visible":0
             },
             {
                 "title":"En Gap Lai",

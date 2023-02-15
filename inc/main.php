@@ -35,7 +35,7 @@
     <section id="portfolio">
     <h2>PORTFOLIO</h2>
         <video id="playervideo" controls width="640" height="480" poster="img/content/thumbs-videos/mariamateaser.jpg" autoplay muted>
-            <source src="videos/MARIAMA TEASER FINAL FINAL 1.2.mp4" type="video/mp4">
+            <source src="videos/MARIAMA-TEASER-FINAL-FINAL-1.2.mp4" type="video/mp4">
         </video>
         <?php require_once("../model/portfolio_model.php");
         $portfolioData=new PortfolioModel("../json/portfolio.json");
