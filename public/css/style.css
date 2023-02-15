@@ -47,8 +47,8 @@ h1,h3{
 /*Responsive*/
 @media only screen and (max-width: 600px){
   .header{
-    background:url("../img/logo.png") no-repeat 105% 10%,url("../img/backgroundheader-mariama-fix.png") center;
-    
+    background: url("../img/logo.png") no-repeat 100% 98%,url("../img/backgroundheader-mariama-fix.png") center;
+    background-size: 40px, auto;
   }
   #background-video{display:none;}
 }
