@@ -22,6 +22,9 @@ body {
     font-family: "Segoe UI",Geneva, Verdana, sans-serif;
     }
 /*Titres*/
+H1{
+  font-size: 2.5em;
+}
 H1,H2,H3{
     text-align: center;
 }
