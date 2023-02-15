@@ -229,7 +229,9 @@ h1,h3{
 /**********************/
   /**********************/
   /*Contacts*/
-  
+  #contacts{
+    margin-top: 50px;
+  }
   .contacts{
     min-height: 40vH;
     max-width: 650px;
@@ -245,6 +247,7 @@ h1,h3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 15px;
   }
   .presentation>span{
     margin-left: 5px;
