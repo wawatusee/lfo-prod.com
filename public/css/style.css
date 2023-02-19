@@ -19,11 +19,12 @@ body{margin: 0;padding: 0;}
     src:url("public/css/fonts/Comfortaa-Regular.ttf");
 }
 body {
-    font-family: "Segoe UI",Geneva, Verdana, sans-serif;
+    font-family: tahoma,"Segoe UI",Geneva, Verdana, sans-serif;
     }
 /*Titres*/
 H1{
   font-size: 2.5em;
+  margin-bottom: 2px;
 }
 H1,H2,H3{
     text-align: center;
