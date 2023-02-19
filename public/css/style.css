@@ -107,37 +107,16 @@ h1,h3{
     background-color: #04AA6D;
     color: white;
   }
+
   
-  .responsiveMenu .icon {
-    display: none;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .responsiveMenu a:not(:first-child) {display: none;}
-    .responsiveMenu a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .responsiveMenu.responsive {position: relative;}
-    .responsiveMenu.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
+
     .responsiveMenu.responsive a {
       float: none;
       display: block;
       text-align: left;
     }
-  }
-  /*#responsiveMenu{
-    position: fixed;
-    top: 0%;
-    right: 0;
-  }*/
+  
+
   /*Texte information*/
   .information{
     padding: var(--content-padding);

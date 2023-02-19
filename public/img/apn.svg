@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="69"
+   height="75"
+   viewBox="0 0 69 75"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <g
+     id="layer1">
+    <rect
+       style="fill:none;fill-opacity:0.978102;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.5;stroke-dasharray:none;paint-order:markers fill stroke;stop-color:#000000"
+       id="rect1484"
+       width="68.41507"
+       height="67.388832"
+       x="-0.17103755"
+       y="7.5256557"
+       ry="6.328392" />
+    <path
+       style="fill:none;fill-opacity:0.978102;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.5;stroke-dasharray:none;paint-order:markers fill stroke;stop-color:#000000"
+       d="M -0.17103763,18.129989 67.901938,17.958951 h -0.171037"
+       id="path1486" />
+    <ellipse
+       style="fill:none;fill-opacity:0.978102;stroke:#000000;stroke-width:1.64904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.5;stroke-dasharray:none;paint-order:markers fill stroke;stop-color:#000000"
+       id="path1544"
+       cx="35.120865"
+       cy="45.521095"
+       rx="18.759508"
+       ry="18.461451" />
+  </g>
+  <path
+     id="rect1614"
+     style="fill:none;fill-opacity:0.978102;stroke:#000000;stroke-width:1.39681;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.5;stroke-dasharray:none;paint-order:markers fill stroke;stop-color:#000000"
+     d="m 13.633205,0.71793546 c -1.659138,0 -2.994515,1.58719784 -2.994515,3.55920884 v 2.0839712 c 0,0.3705158 0.04901,0.727377 0.136797,1.0628055 0.08248,-0.014052 0.170302,-0.021741 0.265252,-0.021812 0.29328,-2.16e-4 0.146482,2.94e-4 0.438751,0 0.453112,-6.598e-4 0.906517,-0.00142 1.359627,-0.00397 0.503946,-0.00305 1.007633,-0.00425 1.511437,-0.019828 0.371251,-0.014546 0.741464,-0.039595 1.112725,-0.053536 0.450679,-0.0038 0.897002,0.054442 1.337941,0.1625933 0.140134,-0.050417 0.304409,-0.079176 0.493802,-0.077331 0.402996,0.00393 0.806612,0.00657 1.209484,0.019828 0.431201,0.016896 0.861238,0.049021 1.291229,0.091211 0.478795,0.043763 0.957457,0.073743 1.438034,0.055519 h 1.35629 c 0.100894,0 0.193452,0.010053 0.280267,0.025777 0.120062,-0.3860952 0.185176,-0.8042377 0.185176,-1.2412616 V 4.2771443 c 0,-1.972011 -1.335378,-3.55920884 -2.994515,-3.55920884 z" />
+  <ellipse
+     style="display:inline;fill:none;fill-opacity:0.978102;stroke:#000000;stroke-width:1.10612;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.5;stroke-dasharray:none;paint-order:markers fill stroke;stop-color:#000000"
+     id="path1544-5"
+     cx="34.549599"
+     cy="46.009121"
+     rx="12.531539"
+     ry="12.434454" />
+</svg>

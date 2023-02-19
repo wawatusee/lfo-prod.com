@@ -16,7 +16,7 @@
                 <header>
                     <h3>A short heading</h3>
                 </header>    
-                <img src="img/apn.png" alt="camera">
+                <img src="img/apn.svg" alt="camera">
                 <div class="content">
                     <p>we offer a wide range of services and formats with modular rates to come up with the customized solution you need.</p>
                 </div>   
@@ -25,7 +25,7 @@
                 <header>
                     <h3>A short heading</h3>
                 </header>    
-                <img src="img/pen.png" alt="drawn pen">
+                <img src="img/stylo.svg" alt="drawn pen">
                 <div class="content">
                     <p>We lead you throughout the production process to meet your desires</p>
                 </div>   
