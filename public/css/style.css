@@ -3,12 +3,10 @@ body{margin: 0;padding: 0;}
 :root{
 --standartspace:0.9em;
 --content-padding:5px;
---font:"Comfortaa-Regular.ttf";
 }
     /*Variables Colors images*/
 :root{
     --main-clear-color:#ffffff;
-    --website-bg-color:#ffffff;
     --grey-color:#818181;
     --deco-first-color:#f05a30;
     --rs-bckgrnd-img:url("../img/menu_rs.png");
@@ -20,6 +18,7 @@ body{margin: 0;padding: 0;}
 }
 body {
     font-family: tahoma,"Segoe UI",Geneva, Verdana, sans-serif;
+    min-width: 370px;
     }
 /*Titres*/
 H1{
@@ -38,31 +37,35 @@ h1,h3{
     background-color: var(--grey-color);
     justify-content: space-around;
     align-items: center;
-    height: 181px;
+    height: 120px;
     color: var(--main-clear-color);
+    background:url("../img/logo.png") no-repeat 98% 98%;
+    background-size:75px;
 }
-.header{
-  background:url("../img/logo.png") no-repeat 98% 10%;
-  
+
+.responsiveMenu,main{
+
+  background-color:white;
 }
-/*Responsive*/
+
+/*Responsive
 @media only screen and (max-width: 600px){
   .header{
     background: url("../img/logo.png") no-repeat 100% 98%,url("../img/backgroundheader-mariama-fix.png") center;
-    background-size: 40px, auto;
+    background-size: 75px, auto;
   }
   #background-video{display:none;}
 }
 @media only screen and (min-width: 600px){
   .header{
-    height: 30vh;
+    height: 120px;
     background:url("../img/logo.png") no-repeat 98% 98%;
-    background-size: 70px;
+    background-size: 75px;
   }
   .responsiveMenu,main{
     background-color:white;
   }
-}
+}*/
 
 #background-video {
   width: 100vw;
@@ -71,19 +74,18 @@ h1,h3{
   position: fixed;
   left: 0;
   right: 0;
-  top: 0;
+  top: 25px;
   bottom: 0;
   z-index: -1;
 }
-/*Essai background video
-*/
+
   /*MENUS*/
 /**********************/
   /*mainMenu*/
 /**********************/
 .responsiveMenu {
     overflow: hidden;
-    color: #818181;
+    color:var(--grey-color);
     display: flex;
     justify-content: center;
   }
@@ -109,15 +111,12 @@ h1,h3{
     color: white;
   }
 
+  .responsiveMenu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
   
-
-    .responsiveMenu.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  
-
   /*Texte information*/
   .information{
     padding: var(--content-padding);
