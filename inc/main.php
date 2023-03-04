@@ -49,10 +49,10 @@
         <h2>CONTACTS</h2>
         <div class="contacts">
             <div class="presentation">
-                <a href="+32 473 18 46 80"><img src="/public/img/picto-phone.png" alt="picto-téléphone"></a><span>+32 0473 18 46 80</span>
+                <a href="+32 473 18 46 80"><img src="/public/img/picto-phone.svg" alt="picto-téléphone"></a><span>+32 0473 18 46 80</span>
              </div>
             <div class="presentation">
-                <a href="mailto:contact@lfo-prod.com"><img src="/public/img/picto-mail.png" alt="picto-mail"></a><span>contact@lfo-prod.com</span>
+                <a href="mailto:contact@lfo-prod.com"><img src="/public/img/picto-mail.svg" alt="picto-mail"></a><span>contact@lfo-prod.com</span>
             </div>
         </div>
     </section>

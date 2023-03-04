@@ -39,7 +39,7 @@ h1,h3{
     align-items: center;
     height: 120px;
     color: var(--main-clear-color);
-    background:url("../img/logo.png") no-repeat 98% 98%;
+    background:url("../img/logo.png") no-repeat 98% 90%;
     background-size:75px;
 }
 @media only screen and (max-width: 470px){
