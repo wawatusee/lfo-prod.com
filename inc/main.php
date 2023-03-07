@@ -14,7 +14,6 @@
     </section>
     <section id="services" class="services">
         <h2>OUR SERVICES</h2>
-        <p>Commercial and corporate films, Musical video clips, documentaries, fiction, motion and sound design, Testimonial, photography, media consulting and more... Film production has no secret for us.If you have a wish, we have the solutions to make it true. From an idea to a film. Our team and partners directed all the films you'll find on this website.</p>
         <div class="cards">
             <article class="card">
                 <header>
@@ -44,6 +43,7 @@
                 </div>   
             </article>
         </div>
+        <p>Commercial and corporate films, Musical video clips, documentaries, fiction, motion and sound design, Testimonial, photography, media consulting and more... Film production has no secret for us.If you have a wish, we have the solutions to make it true. From an idea to a film. Our team and partners directed all the films you'll find on this website.</p>
     </section>
     <section id="contacts">
         <h2>CONTACTS</h2>

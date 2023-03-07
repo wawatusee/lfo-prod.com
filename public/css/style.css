@@ -211,19 +211,12 @@ h1,h3{
     background-color: #8181813d;
     font-weight: lighter;
   }
-
 .thumb-video-arrow{
     width: 88px;
     position: relative;
     top: 22%;
     left: 0%;
   }
-
-.video-link>span{
- font-size: large;
-  width: 100%;
-  }
-
   /*End Showcase-video-link*/
 /*END PORTFOLIO*/
 /**********************/
