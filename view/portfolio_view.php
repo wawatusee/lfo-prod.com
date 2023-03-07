@@ -9,7 +9,7 @@
             $this->portfolioView.='<a href="#portfolio" class="video-link" onClick="play_this_video(\''.$this->pathVideo.$product->file.'\')">';
             $this->portfolioView.='<div class="thumb-video" style="background-image:url(\''.$this->pathPoster.$product->poster.'\');">';
             $this->portfolioView.='<h4>'.$product->title.'</h4>';
-            $this->portfolioView.='<img class="thumb-video-arrow" src="img/arrow-play-video.svg" alt="Capture de la video">';
+            $this->portfolioView.='<div class="thumb-video-arrow"><img src="img/arrow-play-video.svg" alt="Capture de la video"></div>';
             $this->portfolioView.='</div>';
             $this->portfolioView.='</a>';
             }

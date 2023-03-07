@@ -23,7 +23,6 @@ body {
 /*Titres*/
 H1{
   font-size: 2.5em;
-  margin-bottom: 2px;
 }
 H1,H2,H3{
     text-align: center;
@@ -33,6 +32,9 @@ H1,H2,H3{
 }
 h1,h3{
     color: var(--main-clear-color);
+}
+h2{
+  color: var(--grey-color);
 }
 /*HEADER*/
 .header{
@@ -178,6 +180,7 @@ h1,h3{
 /*Player video*/
 #playervideo{
   max-width: 98vw;
+  height: auto;
   display: block;
   margin: auto;
 }
@@ -212,10 +215,11 @@ h1,h3{
     font-weight: lighter;
   }
 .thumb-video-arrow{
-    width: 88px;
     position: relative;
-    top: 22%;
-    left: 0%;
+    top: 20%;
+  }
+  .thumb-video-arrow>img{
+    width: 88px;
   }
   /*End Showcase-video-link*/
 /*END PORTFOLIO*/
