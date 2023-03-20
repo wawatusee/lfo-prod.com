@@ -1,14 +1,13 @@
 {
 	"Main_menu":[
 		{
-			"page":"sevices",
-			"titre":"OUR SERVICES"
-		},
-		{
 			"page":"portfolio",
 			"titre":"PORTFOLIO"
 		},
-
+		{
+			"page":"services",
+			"titre":"SERVICES"
+		},
 		{
 			"page":"contacts",
 			"titre":"CONTACTS"

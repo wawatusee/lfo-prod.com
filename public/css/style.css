@@ -3,12 +3,10 @@ body{margin: 0;padding: 0;}
 :root{
 --standartspace:0.9em;
 --content-padding:5px;
---font:"Comfortaa-Regular.ttf";
 }
     /*Variables Colors images*/
 :root{
     --main-clear-color:#ffffff;
-    --website-bg-color:#ffffff;
     --grey-color:#818181;
     --deco-first-color:#f05a30;
     --rs-bckgrnd-img:url("../img/menu_rs.png");
@@ -19,14 +17,24 @@ body{margin: 0;padding: 0;}
     src:url("public/css/fonts/Comfortaa-Regular.ttf");
 }
 body {
-    font-family: "Segoe UI",Geneva, Verdana, sans-serif;
+    font-family: tahoma,"Segoe UI",Geneva, Verdana, sans-serif;
+    min-width: 370px;
     }
 /*Titres*/
+H1{
+  font-size: 2.5em;
+}
 H1,H2,H3{
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: lighter;
 }
 h1,h3{
     color: var(--main-clear-color);
+}
+h2{
+  color: var(--grey-color);
 }
 /*HEADER*/
 .header{
@@ -34,28 +42,43 @@ h1,h3{
     background-color: var(--grey-color);
     justify-content: space-around;
     align-items: center;
-    height: 181px;
+    height: 120px;
     color: var(--main-clear-color);
+    background:url("../img/logo.png") no-repeat 98% 103%;
+    background-size:75px;
 }
-.header{
-  background:url("../img/logo.png") no-repeat 98% 10%;
+@media only screen and (max-width: 470px){
+  .soustitre{
+    font-size: 0.8em;
+  }
 }
-/*Responsive*/
+@media only screen and (min-width: 470px){
+  .soustitre{
+    font-size: 1em;
+  }
+}
+.responsiveMenu,main{
+  background-color:white;
+}
+
+/*Responsive
 @media only screen and (max-width: 600px){
   .header{
-    background:url("../img/logo.png") no-repeat 105% 10%,url("../img/backgroundheader-mariama-fix.png") center;
+    background: url("../img/logo.png") no-repeat 100% 98%,url("../img/backgroundheader-mariama-fix.png") center;
+    background-size: 75px, auto;
   }
   #background-video{display:none;}
 }
 @media only screen and (min-width: 600px){
   .header{
-    height: 51vh;
+    height: 120px;
     background:url("../img/logo.png") no-repeat 98% 98%;
+    background-size: 75px;
   }
   .responsiveMenu,main{
     background-color:white;
   }
-}
+}*/
 
 #background-video {
   width: 100vw;
@@ -64,19 +87,18 @@ h1,h3{
   position: fixed;
   left: 0;
   right: 0;
-  top: 0;
+  top: 25px;
   bottom: 0;
   z-index: -1;
 }
-/*Essai background video
-*/
+
   /*MENUS*/
 /**********************/
   /*mainMenu*/
 /**********************/
 .responsiveMenu {
     overflow: hidden;
-    color: #818181;
+    color:var(--grey-color);
     display: flex;
     justify-content: center;
   }
@@ -101,37 +123,13 @@ h1,h3{
     background-color: #04AA6D;
     color: white;
   }
-  
-  .responsiveMenu .icon {
-    display: none;
+
+  .responsiveMenu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
   
-  @media screen and (max-width: 600px) {
-    .responsiveMenu a:not(:first-child) {display: none;}
-    .responsiveMenu a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .responsiveMenu.responsive {position: relative;}
-    .responsiveMenu.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .responsiveMenu.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-  /*#responsiveMenu{
-    position: fixed;
-    top: 0%;
-    right: 0;
-  }*/
   /*Texte information*/
   .information{
     padding: var(--content-padding);
@@ -182,6 +180,7 @@ h1,h3{
 /*Player video*/
 #playervideo{
   max-width: 98vw;
+  height: auto;
   display: block;
   margin: auto;
 }
@@ -197,39 +196,39 @@ h1,h3{
 .video-link{
     width: 400px;
     height: 300px;
-    border: grey solid 0.5px;
     text-decoration: none;
     text-align: center;
-    background-color: rgba(var(--grey-color),0.5);
     color: #141414;
-    margin: 2px;
+    margin-top: 30px;
     text-transform: uppercase;
   }
 .thumb-video{
     width: 100%;
-    height: 100%;
+    height: 88%;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-position:center;
   }
-
+  .thumb-video>h4{
+    color: rgb(241, 237, 237);
+    background-color: #8181813d;
+    font-weight: lighter;
+  }
 .thumb-video-arrow{
-    width: 88px;
     position: relative;
-    top: 34%;
-    left: 0%;
+    top: 20%;
   }
-.video-link>span{
- font-size: large;
-  width: 100%;
+  .thumb-video-arrow>img{
+    width: 88px;
   }
-  /*End Essai avec background écrit dans html*/
   /*End Showcase-video-link*/
 /*END PORTFOLIO*/
 /**********************/
   /**********************/
   /*Contacts*/
-  
+  #contacts{
+    margin: 50px 50px 0 50px;
+  }
   .contacts{
     min-height: 40vH;
     max-width: 650px;
@@ -245,6 +244,7 @@ h1,h3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 15px;
   }
   .presentation>span{
     margin-left: 5px;
